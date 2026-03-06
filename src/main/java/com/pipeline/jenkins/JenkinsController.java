@@ -17,6 +17,11 @@ public class JenkinsController {
     public String hello(){
         return "Hello";
     }
+
+    @GetMapping("hi")
+    public String hi(){
+        return "Hi";
+    }
     // added comment for maven
     // added commit for jenkins
 }
